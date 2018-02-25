@@ -23,7 +23,15 @@ edad=document.getElementById('edad').value;
 		if(edad>17)
 		{
 			alert("adulto")
-		}
+		} 
+
+
+		DE ESTA MANERA, USAMOS 3 VECES EL "MICROPROCESADOR"
+		(SENTENCIA "IF"); EN CAMBIO CON LA DE ABAJO SÓLO SE
+		USA DOS VECES (SE ECONOMIZA CÓDIGO Y SE HACE MENOS
+		ENGORROSO).
+
+
 	*/	
 	
 
