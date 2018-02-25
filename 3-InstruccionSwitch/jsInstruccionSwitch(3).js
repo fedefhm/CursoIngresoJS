@@ -12,9 +12,4 @@ switch(mesDelAño)
 	break	//este break no es necesario, pero está bueno ponerlo para acostumbrarse, porque hay otros lenguajes un poco más ásperos que sí o sí lo necesitan.
 }
 
-//alert (mesDelAño);
-	
-	
-
-
 }//FIN DE LA FUNCIÓN
