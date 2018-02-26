@@ -7,7 +7,7 @@ function Mostrar()
 	{
 		
 		contador++; // es lo mismo que poner contador=contador + 1
-		document.write(contador); // el <br> es un formato de html para que ela cuenta la haga uno debajo del otro (salto de línea)
+		document.write("<br>"+ contador); // el <br> es un formato de html para que la cuenta la haga uno debajo del otro (salto de línea)
 		 
 	}
 	/*var contador;
@@ -15,7 +15,7 @@ function Mostrar()
 
 	while(contador<=10)
 	{
-		document.write("<br>"+ contador); // el <br> es un formato de html para que ela cuenta la haga uno debajo del otro (salto de línea)
+		document.write("<br>"+ contador); // el <br> es un formato de html para que la cuenta la haga uno debajo del otro (salto de línea)
 		contador=contador+1 
 */
 
