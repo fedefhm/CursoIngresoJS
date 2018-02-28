@@ -13,7 +13,8 @@ document.getElementById('importeFinal').value=importeFinal;
 
 }
 */
-// el ejercicio pide pedir por promt el precio, el porcentaje de descuento que se va a hacer y mostrarlo por ID
+// ejercicio de clase: pedir por promt el precio, el porcentaje
+// de descuento que se va a hacer y mostrarlo por ID
 {
 var importe = prompt("Ingrese importe");
 var descuento = prompt("Ingrese porcentaje de descuento");
