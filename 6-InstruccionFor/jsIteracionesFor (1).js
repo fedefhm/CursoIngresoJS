@@ -7,7 +7,7 @@ function Mostrar()
 {
 	contador++
 	document.write(contador);
-	*/
+	
 
 
  
@@ -28,6 +28,13 @@ for(;;)
 	}
 	document.write("<br>continue"+contador);
 	
+}
+*/
+var i;
+
+for(i=1;i<=10;i++)
+{
+	document.write(i + "<br>");
 }
 
 }

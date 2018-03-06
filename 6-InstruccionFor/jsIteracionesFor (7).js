@@ -1,24 +1,24 @@
 function Mostrar()
 {
-	var contadorDiv=0;
-	var numero=prompt("ingrese numero");
-	numero=parseInt(numero);
+var numero;
+var divisor;
+var cantDivisores=0;
 
-	for(anterior=2;anterior<numero;anterior++)
+numero=prompt("Ingrese número");
+numero=parseInt(numero);
+
+for(i=2;i<=numero;i++)
 	{
-		if(numero%anterior==0)
+		if(numero%i==0)
 		{
-			document.write("<br>"+anterior);
-			contadorDiv++;
-		}
-		if(anterior>(numero/2))
-		{
-			break;
+		divisor=i;
+		divisor=parseInt(divisor);
+		document.write(divisor + "<br>"); 
+		cantDivisores++
 		}
 	}
-	if(contadorDiv==0)
-	{
-		document.write("es primo");
-	}
+
+	document.write("La cantidad de divisores entre 1 y " + numero + " es " + cantDivisores + " y son los siguientes mencionados arriba");
+
 
 }//FIN DE LA FUNCIÓN

@@ -1,7 +1,16 @@
 function Mostrar()
 {
 
-var numeroRandom;
+var i;
+
+for(i=10;i>0;i--)
+{
+	document.write(i + "<br>");
+}
+
+
+
+/*var numeroRandom;
 var contador1=0;
 var contador2=0;
 var contador3=0;
@@ -50,5 +59,7 @@ switch(numeroRandom)
 }
 
 }
+*/
+
 
 }
