@@ -28,10 +28,10 @@ var perímetro;
 base= document.getElementById('laBase').value;
 base= parseInt (base);
 perímetro= base*4;
-alert("EL perímetro del cuadrado es "+perímetro);
+alert("El perímetro del cuadrado es "+perímetro);
 
 }
 
-// arriba el dado en clase, abajo el que pide realmente el 
-// documento de html de la facu.
-
+/* arriba el dado en clase, abajo el que pide realmente el 
+ documento de html de la facu.
+ */

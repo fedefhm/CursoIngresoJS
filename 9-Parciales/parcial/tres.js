@@ -5,7 +5,7 @@ var ancho;
 var perímetro;
 
 
-largo=document.getElementById('largo').value;
+largo=document.getElementById('alrgo').value;
 ancho=document.getElementById('ancho').value;
 ancho=parseInt(ancho);
 largo=parseInt(largo);
