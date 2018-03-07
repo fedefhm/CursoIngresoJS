@@ -1,7 +1,19 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostrar()
 {
-	alert("Funciona 5-Switch");
+	var mesDelAño;
+	mesDelAño=prompt("Ingrese el mes del año");
+	
+	switch(mesDelAño)
+	{
+		case "Enero":
+		case "Febrero":
+		alert("Veranito!!!!");
+		break;
+		default:
+		alert("Extraño Enero y Febrero");
+		break;
+	}
 	
 }
 
